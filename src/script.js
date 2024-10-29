@@ -1,3 +1,4 @@
+
 // console.log("Hello array thuesday");
 
 // let fruits = ['mango', 'apple', 'banana'];
@@ -106,3 +107,4 @@ console.log(position);
 // ÖVNINGAR 35
 // ÖVNINGAR 36
 // ÖVNINGAR 37
+
