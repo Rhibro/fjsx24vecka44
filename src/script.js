@@ -87,8 +87,16 @@ let containsX = str.includes('x');
 console.log(containsX);
 let position = str.indexOf("p");
 console.log(position);
+let take = str.slice(0, 4);
+console.log(take);
+let takeAgain = str.slice(27, 35);
+console.log(takeAgain);
+
 
 // ÖVNINGAR 19
+
+
+
 // ÖVNINGAR 20
 // ÖVNINGAR 21
 // ÖVNINGAR 22
