@@ -78,7 +78,7 @@ console.log(mirror);
 // [...nums].reverse(): This creates a reversed copy of the nums array without modifying the original array.
 // nums.concat(...): Combines the original nums array with the reversed copy.
 
-// ÖVNINGAR 18
+// ÖVNINGAR 18-22
 
 let str = "Supercalifragilisticexpialidocious";
 let containsN = str.includes('n');
@@ -87,21 +87,50 @@ let containsX = str.includes('x');
 console.log(containsX);
 let position = str.indexOf("p");
 console.log(position);
-let take = str.slice(0, 4);
+let take = str.slice(0, 5);
 console.log(take);
-let takeAgain = str.slice(27, 35);
+let takeAgain = str.slice(-7);
 console.log(takeAgain);
 
-
-// ÖVNINGAR 19
-
-
-
-// ÖVNINGAR 20
-// ÖVNINGAR 21
-// ÖVNINGAR 22
 // ÖVNINGAR 23
+
+let numArray = [23, 45, 5, 62, 1, 21, 3, 54];
+let filteredArray = numArray.filter(num => num <= 5);
+
+console.log(filteredArray); // Output: [5, 1, 3]
+
+
 // ÖVNINGAR 24
+
+let persons = [
+    {
+      name: "Felicia",
+      age: 12,
+    },
+    {
+      name: "Pelle",
+      age: 20,
+    },
+    {
+      name: "Peter",
+      age: 59,
+    },
+    {
+      name: "Anna",
+      age: 32,
+    },
+    {
+      name: "Jocke",
+      age: 18,
+    },
+    {
+      name: "Ella",
+      age: 3,
+    },
+  ];
+
+  let filterAge = persons.filter( num => num.age >= 18 ).map(num => num.name);
+  console.log(filterAge)
 // ÖVNINGAR 25
 // ÖVNINGAR 26
 // ÖVNINGAR 27
