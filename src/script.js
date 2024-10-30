@@ -72,11 +72,9 @@
 // // ÖVNINGAR 17
 
 // let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-// let mirror = nums.concat([...nums].reverse());
-// console.log(mirror);
+// nums.reverse();
+// console.log(nums);
 
-// // [...nums].reverse(): This creates a reversed copy of the nums array without modifying the original array.
-// // nums.concat(...): Combines the original nums array with the reversed copy.
 
 // // ÖVNINGAR 18-22
 
@@ -214,4 +212,4 @@ for (let i = 0; i < fruits.length; i++) {
   console.log(`Index ${i}: ${fruits[i]}`);
 }
 
-
+// i = each index 
